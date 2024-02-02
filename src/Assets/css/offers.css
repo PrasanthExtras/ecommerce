@@ -1,0 +1,32 @@
+/* Offers.css */
+.slider-container-wrapper {
+    overflow-x: hidden;
+}
+.slider-container {
+    display: flex;
+    width: 300%; /* Adjust based on the number of slides */
+    transition: transform 0.5s ease-in-out;
+    overflow: hidden; /* Hide overflowing content */
+  }
+  
+  .slide {
+    flex: 1;
+    opacity: 1; /* Set initial opacity to 1 */
+    transition: opacity 0.5s ease-in-out; /* Add fading transition */
+  }
+  
+  /* Additional styling as needed */
+  .sliderStyle {
+    border: 3px solid #7AB9F3;
+    box-shadow: 6px 6px 6px #7AB9F3;
+    border-radius: 5px;
+
+  }
+
+  .sliderStyle div {
+    padding: 20px;
+  }
+
+  .sliderStyle > div > h3 {
+    color:#7AB9F3;
+  }

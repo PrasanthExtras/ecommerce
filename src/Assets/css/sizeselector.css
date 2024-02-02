@@ -1,0 +1,27 @@
+.size-selector
+{
+  z-index: 1 !important;
+  position: relative;
+}
+
+.sizeBtn{
+    padding: 10px !important;
+    width :100px !important;
+    margin:0px 10px 10px 0px;
+}
+
+.sizeBtn.btn.btn-normal{
+    border: 2px solid #d2d2d2  !important;
+    border-radius: 10px !important;
+    box-shadow: 3px 2px 5px #d2d2d2 ;
+}
+
+.sizeBtn.btn.btn-active
+{
+    border: 2px solid #E695ED !important;
+    border-radius: 10px !important;
+    box-shadow: 3px 2px 5px #E695ED;
+    background-color: #E695ED;
+    background: #E695ED82;
+    color:#AD4CB5;
+}

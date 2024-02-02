@@ -1,0 +1,105 @@
+.bottom-bar {
+    border-top : 1px solid black;
+    padding: 20px;
+    text-align:start;
+}
+  
+  .bottom-bar p{
+    margin : 0px !important;
+    padding: 0px 20px;
+  }
+
+/* Footer.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.footer {
+    flex: 1; /* This will make the footer take up the remaining space */
+    background-color: #f8f9fa; /* Set your desired background color */
+    max-width: 100%; /* or a specific pixel value */
+    margin: 0 auto; /* Center the container if needed */
+
+}
+
+.container-footer {
+    padding: 20px 40px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.col-head{
+    max-height:30px;
+}
+
+.col-head > h5{
+   font-weight: bold;
+}
+
+.footer{
+    background-color: #00AA68;
+}
+
+.footer > .container-footer > .row > .col-md-3 > ul{
+    padding-left: 0px;
+}
+
+.footer > .container-footer > .row > .col-md-3 > ul > li {
+    list-style-type: none;
+}
+
+.footer > .container-footer > .row > .col-md-3 > ul > li > a {
+    color: #000;
+    text-decoration: none;
+    font-size:14px;
+}
+.social_links{
+    border-top:1px solid black;
+    border-bottom:1px solid black;
+    margin-bottom:10px;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.social_links > .row > .col-md-3 > .text-center > h6{
+    margin-bottom:0px;
+    padding: 10px 20px;
+}
+
+.head_nl{
+    font-weight: Bold;
+    font-size: 50px;
+    color:white;
+}
+
+.social_links > .row > .col-md-3:not(:first-child) {
+    border-left: 1px solid black; 
+}
+
+.clr_white{
+    color:white;
+}
+
+.newsletter_block{
+    padding:40px 40px 30px 40px;
+}
+
+/* footer.css */
+
+.newsletter-subscription {
+    display: flex;
+    align-items: center;
+}
+
+.newsletter_fwidth {
+    width: 100%;
+}
+
+form.newsletter_fwidth input{
+    padding: 20px 30px;
+}

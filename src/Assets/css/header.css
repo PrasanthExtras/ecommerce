@@ -1,0 +1,43 @@
+.bg-lighter {
+    background-color: white !important;
+    border : 0.5px solid #80808026;
+}
+
+.icons{
+    font-size:18px !important;
+}
+
+#basic-navbar-nav
+{
+  border: none !important;
+}
+
+.navPad-50{
+    padding-right: 40px !important;
+}
+
+.icon-with-count {
+    position: relative;
+  }
+  
+  .icon-with-count .icons {
+    display: flex;
+    align-items: center;
+  }
+  
+  .icon-with-count sup {
+    display: block;
+    height: 15px; 
+    width: 15px; 
+    background-color: #A740AF; 
+    color: #fff; 
+    position: absolute;
+    top: 0;
+    right: 10px;
+    font-size: 12px; 
+    line-height: 15px; 
+    text-align: center;
+  }
+.logo{
+    width:100px;
+}

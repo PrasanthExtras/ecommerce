@@ -1,0 +1,54 @@
+.title_acc{
+    color:black !important;
+    font-weight:bold !important;
+    text-align: left;
+}
+
+.description{
+    color:rgb(144, 144, 144);
+}
+
+.card-header {
+    position: relative;
+}
+
+.float_right {
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    color:gray;
+}
+
+  
+/* If the above doesn't work, you can try a more general selector */
+.btn.btn-link
+{
+  text-decoration: none !important;
+}
+
+div.card .card-header {
+    padding: 5px 10px !important;
+    background-color: transparent !important;
+    border: none;
+    border-bottom: 1px solid gray !important;
+}
+
+div.card .card-header{
+    border-radius: 0px !important;
+}
+
+div.card .card-header:first-child {
+    border-radius: 0px !important;
+}
+.card,.card-header,.card-header:first-child,.collapse  {
+    border-radius: 0px !important;
+    border: none;
+    border-bottom: 1px solid gray !important;
+}
+
+.icon{
+    margin-right:20px;
+    font-size: 20px;
+    color: black;
+}
