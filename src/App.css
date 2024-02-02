@@ -1,5 +1,4 @@
 .App {
-  text-align: center;
 }
 
 .App-logo {
@@ -36,3 +35,35 @@
     transform: rotate(360deg);
   }
 }
+
+
+/* custom css */
+
+.navbar-expand-lg-with-padding {
+  padding: 20px 40px !important; 
+}
+
+.navbar-expand-lg .navbar-nav .nav-link
+{
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+}
+
+.navPad-100
+{
+    padding-right: 100px;
+}
+
+.icon-with-count .icons {
+  padding: 5px 25px;
+}
+
+.input-group {
+  padding-right:25px;
+}
+
+.icon-with-count {
+  padding-left: 30px;
+}
+
+
